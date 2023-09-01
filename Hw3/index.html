@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sample HTML Form - JiminMJ</title>
+  </head>
+  <br /><br />
+  <body>
+    <head>
+      <h1>Sample HTML Form</h1>
+    </head>
+    <form>
+      <div>
+        <label for="firstName">First name:</label><br />
+        <input type="text" id="firstName" name="firstName" /><br />
+      </div>
+      <div>
+        <label for="lastName">Last name:</label><br />
+        <input type="text" id="lastName" name="lastName" />
+      </div>
+      <br /><br />
+      <div>
+        <label for="blazerID">BlazerID:</label><br />
+        <input type="text" id="blazerID" name="blazerID" />
+      </div>
+      <p>
+        <label for="pass"
+          >Password (a number or symbol, at least 12 charcacters):</label
+        >
+        <input
+          type="password"
+          id="pass"
+          name="password"
+          minlength="12"
+          required
+        />
+      </p>
+      <fieldset>
+        <legend>What is your nationality?</legend>
+
+        <input type="radio" id="caucasian" name="ethnicity" value="W" />
+        <label for="Caucasian">Caucasian</label><br />
+
+        <input type="radio" id="africanAmerican" name="ethnicity" value="AA" />
+        <label for="africanAmerican">African-American</label><br />
+
+        <input type="radio" id="asian" name="ethnicity" value="A" />
+        <label for="asian">Asian/Pacific Islander</label><br />
+
+        <input type="radio" id="hispanic" name="ethnicity" value="H" />
+        <label for="hispanic">Hispanic</label><br />
+
+        <input type="radio" id="nativeAmerican" name="ethnicity" value="N" />
+        <label for="nativeAmerican">Native American/Alaska Native</label><br />
+
+        <input type="radio" id="multiRacial" name="ethnicity" value="M" />
+        <label for="multiRacial">Other/Multi-Racial</label><br />
+
+        <input type="radio" id="decline" name="ethnicity" value="D" />
+        <label for="decline">Decline to Respond</label><br />
+      </fieldset>
+      <br /><br />
+      <label for="comment">Leave us a comment:</label>
+      <textarea id="comment" name="comment" rows="10" cols="50"> </textarea>
+      <br /><br /><br /><br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
