@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     color: #333; /* Default heading color */
 }
 
@@ -24,18 +24,18 @@ body {
 }
 
 header {
-    background-color: #87CEEB; /* Sky blue header background */
+    background-color: #800080; /* Purple header background */
     color: #fff; /* White text color */
     padding: 10px;
 }
 
 nav {
-    background-color: #fff; /* White navigation background */
+    background-color: #4B0082; /* Indigo navigation background */
     padding: 10px;
 }
 
 nav a {
-    color: #333; /* Default link color */
+    color: #fff; /* White link color */
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
@@ -43,7 +43,7 @@ nav a {
 
 /* Container Styles */
 .content-container {
-    background-color: #fff; /* White container background */
+    background-color: #333; /* Dark gray container background */
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -57,7 +57,7 @@ nav a {
 
 /* Text and Link Styling */
 a {
-    color: #87CEEB; /* Sky blue link color */
+    color: #00FF7F; /* Neon green link color */
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ ul {
 
 /* Footer Styling */
 footer {
-    background-color: #333; /* Dark gray footer background */
+    background-color: #5F9EA0; /* Blue iris footer background */
     color: #fff; /* White text color in footer */
     text-align: center;
     padding: 10px;
