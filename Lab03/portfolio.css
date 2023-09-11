@@ -19,7 +19,7 @@ h1, h2, h3 {
 
 /* Colors and Backgrounds */
 body {
-    background-color: #75868b; /* White background */
+    background-color: #75868b; /* light grey background */
 }
 
 header {
@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    background-color: #75868b; /* White navigation background */
+    background-color: #75868b; /* light grey navigation background */
     padding: 10px;
 }
 
@@ -73,7 +73,7 @@ ul {
 /* Footer Styling */
 footer {
     background-color: #333; /* Dark gray footer background */
-    color: #6c318c; /* White text color in footer */
+    color: #6c318c; /* purple text color in footer */
     text-align: center;
     padding: 10px;
 }
