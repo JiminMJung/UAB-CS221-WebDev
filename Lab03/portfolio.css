@@ -1,4 +1,3 @@
-/* Reset some default styles for better consistency */
 body, h1, h2, h3, p, ul, li, a, address {
     margin: 0;
     padding: 0;
@@ -14,28 +13,28 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333; /* Default heading color */
 }
 
 /* Colors and Backgrounds */
 body {
-    background-color: #fff; /* White background */
+    background-color: #75868b; /* White background */
 }
 
 header {
-    background-color: #800080; /* Purple header background */
+    background-color: #87CEEB; /* Sky blue header background */
     color: #fff; /* White text color */
     padding: 10px;
 }
 
 nav {
-    background-color: #4B0082; /* Indigo navigation background */
+    background-color: #75868b; /* White navigation background */
     padding: 10px;
 }
 
 nav a {
-    color: #fff; /* White link color */
+    color: #333; /* Default link color */
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
@@ -43,7 +42,7 @@ nav a {
 
 /* Container Styles */
 .content-container {
-    background-color: #333; /* Dark gray container background */
+    background-color: #fff; /* White container background */
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -57,7 +56,7 @@ nav a {
 
 /* Text and Link Styling */
 a {
-    color: #00FF7F; /* Neon green link color */
+    color: #87CEEB; /* Sky blue link color */
     text-decoration: none;
 }
 
@@ -73,8 +72,8 @@ ul {
 
 /* Footer Styling */
 footer {
-    background-color: #5F9EA0; /* Blue iris footer background */
-    color: #fff; /* White text color in footer */
+    background-color: #333; /* Dark gray footer background */
+    color: #6c318c; /* White text color in footer */
     text-align: center;
     padding: 10px;
 }
