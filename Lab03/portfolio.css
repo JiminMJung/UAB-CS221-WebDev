@@ -1,0 +1,85 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li, a, address {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; /* Default text color */
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Default heading color */
+}
+
+/* Colors and Backgrounds */
+body {
+    background-color: #fff; /* White background */
+}
+
+header {
+    background-color: #87CEEB; /* Sky blue header background */
+    color: #fff; /* White text color */
+    padding: 10px;
+}
+
+nav {
+    background-color: #fff; /* White navigation background */
+    padding: 10px;
+}
+
+nav a {
+    color: #333; /* Default link color */
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Container Styles */
+.content-container {
+    background-color: #fff; /* White container background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for containers */
+}
+
+/* Section Styles */
+.about-section, .project-section, .contact-section, .intro-section {
+    margin-bottom: 20px;
+}
+
+/* Text and Link Styling */
+a {
+    color: #87CEEB; /* Sky blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark gray footer background */
+    color: #fff; /* White text color in footer */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Address Styling */
+address {
+    font-style: normal;
+}
