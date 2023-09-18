@@ -1,24 +1,31 @@
-/* the background of the website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-
+    background-color: #FFFF;
 }
-/* the header of the website*/
+
 header {
-
+    position: sticky;
+    top: 0;
+    background-color: #3498db; /* Unique background color for header */
+    border-bottom: 2px solid #000; /* Bottom border */
+    padding: 1em; /* 1em padding on all sides */
 }
-/* the navigation of the website*/
-nav {
 
-}
-/* the main menu(different tabs of the website) of the website*/
-menu {
-
-}
-/* the main content of the website*/
 main {
-
+    width: 80%;
+    margin: 0 auto; /* Center the main element */
+    background-color: #2ecc71; /* Unique background color for main */
+    padding: 1em; /* 1em padding on all sides */
 }
-/* the footer of the website*/
-footer {
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Takes up the entire viewport width */
+    background-color: #e74c3c; /* Unique background color for footer */
+    padding: 1em; /* 1em padding on all sides */
 }
