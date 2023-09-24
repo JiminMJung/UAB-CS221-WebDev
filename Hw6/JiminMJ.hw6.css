@@ -15,11 +15,40 @@ grid-container {
     grid-template-columns: repeat(3, 100px);
     grid-gap: 10px;
 }
+grid-item:nth-child(1) {
+    background-color: red;
+}
+grid-item:nth-child(2) {
+    background-color: orange;
+}
+grid-item:nth-child(3) {
+    background-color: yellow;
+}
+grid-item:nth-child(4) {
+    background-color: green;
+}
+grid-item:nth-child(5) {
+    background-color: blue;
+}
+grid-item:nth-child(6) {
+    background-color: purple;
+}
+grid-item:nth-child(7) {
+    background-color: pink;
+}
+grid-item:nth-child(8) {
+    background-color: brown;
+}
+grid-item:nth-child(9) {
+    background-color: gray;
+}
 grid-item {
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db;
-    color: #404040;
     font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #000;
 }
