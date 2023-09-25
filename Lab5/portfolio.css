@@ -51,6 +51,10 @@ footer {
     background-color: #404040;
     padding: 1em;
 }
+/* Word Color*/
+ p {
+    color: #D9D9D9;
+ }
 
 /* Flex Container Styles */
 .flex-container {
@@ -85,7 +89,7 @@ footer {
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    border: 2px solid #000;
+    border: 2px solid #D9D9D9;
 }
 
 /* Link Styles */
