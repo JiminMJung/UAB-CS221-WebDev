@@ -49,6 +49,7 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #404040;
+    color: #D9D9D9;
     padding: 1em;
 }
 /* Word Color*/
@@ -82,8 +83,8 @@ footer {
 }
 
 .grid-item {
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,6 +107,12 @@ a:hover {
 ul {
     list-style-type: square;
     margin-left: 20px;
+    color: #D9D9D9;
+}
+li {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #D9D9D9; 
 }
 
 /* Address Styles */
