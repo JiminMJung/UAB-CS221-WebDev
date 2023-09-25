@@ -19,15 +19,15 @@ body {
 }
 
 .grid-item:nth-child(1) {
-    background-color: red;
+    background-color: yellow;
 }
 
 .grid-item:nth-child(2) {
-    background-color: orange;
+    background-color: pink;
 }
 
 .grid-item:nth-child(3) {
-    background-color: yellow;
+    background-color: blue;
 }
 
 .grid-item:nth-child(4) {
@@ -35,23 +35,23 @@ body {
 }
 
 .grid-item:nth-child(5) {
-    background-color: blue;
+    background-color: red;
 }
 
 .grid-item:nth-child(6) {
-    background-color: purple;
+    background-color: grey;
 }
 
 .grid-item:nth-child(7) {
-    background-color: pink;
-}
-
-.grid-item:nth-child(8) {
     background-color: brown;
 }
 
+.grid-item:nth-child(8) {
+    background-color: orange;
+}
+
 .grid-item:nth-child(9) {
-    background-color: gray;
+    background-color: purple;
 }
 
 .grid-item {
