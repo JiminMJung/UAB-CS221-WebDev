@@ -36,6 +36,11 @@ p {
     color: #313866;
 }
 
+img {
+    float: left;
+    margin: 5px;
+}
+
 /* Header Styles */
 header {
     background-color: #50409A;
