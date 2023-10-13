@@ -39,6 +39,8 @@ p {
 img {
     float: left;
     margin: 5px;
+    width: 100px;
+    height: 115px;
 }
 
 /* Header Styles */
