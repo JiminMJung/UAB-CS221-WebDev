@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JiminMJ.hw8</title>
+
+    <style>
+        body {
+            background-color: darkgray;
+        }
+    </style>
+
+    <script>
+        var grade = prompt("Enter your numeric grade (0-100):");
+
+        var letterGrade;
+        if (grade >= 90 && grade <= 100) {
+            letterGrade = "A";
+        } else if (grade >= 80 && grade < 90) {
+            letterGrade = "B";
+        } else if (grade >= 70 && grade < 80) {
+            letterGrade = "C";
+        } else if (grade >= 60 && grade < 70) {
+            letterGrade = "D";
+        } else {
+            letterGrade = "F";
+        }
+
+        var treat;
+        switch (letterGrade) {
+            case "A":
+                treat = "Candy";
+                break;
+            case "B":
+                treat = "Apple";
+                break;
+            case "C":
+                treat = "Mint";
+                break;
+            case "D":
+                treat = "Pencil";
+                break;
+            case "F":
+                treat = "Awkward conversation with parents";
+                break;
+            default:
+                treat = "No submitted grade";
+        }
+
+        console.log("Enter the student's numeric grade: " + grade);
+        console.log("grade: " + grade);
+        console.log("Letter Grade: " + letterGrade);
+        console.log("Treat: " + treat);
+    </script>
+</head>
+</html>

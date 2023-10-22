@@ -10,8 +10,8 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    background-color: #313866;
-    color: #D9D9D9;
+    background-color: #F6F2EF;
+    color: #2F2E2C;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ body {
 }
 
 a {
-    color: #964EC2;
+    color: #AAA6A2;
     text-decoration: none;
 }
 
@@ -33,20 +33,24 @@ a:hover {
 }
 
 p {
-    color: #313866;
+    text-align: justify;
+    color: #2F2E2C;
 }
 
 img {
     float: left;
-    margin: 5px;
-    width: 100px;
-    height: 115px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 35px;
+    width: 250px;
+    height: 400px;
 }
 
 /* Header Styles */
 header {
-    background-color: #50409A;
-    border-bottom: 0.1em solid #964EC2;
+    background-color: #6D6B69;
+    border-bottom: 0.1em solid #AAA6A2;
     padding: 1em 0;
     text-align: center;
 }
@@ -55,12 +59,12 @@ header h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
     margin-bottom: 1em;
-    color: #D9D9D9;
+    color: #2F2E2C;
 }
 
 /* Navigation Styles */
 nav {
-    background-color: #964EC2;
+    background-color: #AAA6A2;
     text-align: center;
     padding: 1em 0;
 }
@@ -69,17 +73,17 @@ nav a {
     display: inline-block;
     margin: 0 2%;
     font-weight: bold;
-    color: #D9D9D9;
+    color: #2F2E2C;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #FF7BBF;
+    color: #C1B8B0;
 }
 
 /* Content Container Styles */
 .content-container {
-    background-color: #D9D9D9;
+    background-color: #E6E3E2;
     padding: 2%;
     flex: 1;
 }
@@ -89,8 +93,8 @@ nav a:hover {
     margin-bottom: 3%;
 }
 
-.about-section h2 { /* Added about-section h2 color due to no color present in last commit*/
-    color: #313866;
+.about-section h2 {
+    color: #2F2E2C;
 }
 
 /* Skills/Hobbies/Interests Styles */
@@ -99,7 +103,7 @@ nav a:hover {
 }
 
 .shi-section h3 {
-    color: #313866;
+    color: #2F2E2C;
 }
 
 ul {
@@ -108,7 +112,7 @@ ul {
 }
 
 li {
-    color: #313866;
+    color: #2F2E2C;
 }
 
 /* Project Section Styles */
@@ -117,23 +121,23 @@ li {
 }
 
 .project {
-    background-color: #50409A;
-    color: #D9D9D9;
+    background-color: #6D6B69;
+    color: #2F2E2C;
     margin: 2% 0;
     padding: 2%;
     border-radius: 0.3em;
 }
 
-.project-section h2{ /* Added project-section h2 color due to no color present in last commit*/
-    color:#313866;
+.project-section h2 {
+    color: #2F2E2C;
 }
 
 .project h3 {
-    color: #D9D9D9;
+    color: #2F2E2C;
 }
 
 .project p {
-    color: #D9D9D9;
+    color: #2F2E2C;
 }
 
 /* Contact Section Styles */
@@ -141,8 +145,8 @@ li {
     text-align: center;
 }
 
-.contact-section h2 { /* Added contact-section h2 color due to no color present in last commit*/
-    color: #313866;
+.contact-section h2 {
+    color: #2F2E2C;
 }
 
 .contact-form {
@@ -151,7 +155,7 @@ li {
     text-align: left;
     padding: 4%;
     max-width: 400px;
-    border: 0.125em solid #ccc;
+    border: 0.125em solid #2F2E2C;
     border-radius: 0.6em;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
@@ -161,12 +165,8 @@ li {
 .contact-form textarea {
     display: block;
     margin-bottom: 4%;
-    color: #313866;
+    color: #2F2E2C;
     font-size: 18px;
-}
-
-.contact-section p {
-    color:#313866
 }
 
 .contact-form textarea {
@@ -175,8 +175,8 @@ li {
 }
 
 .contact-form input[type="submit"] {
-    background-color: #FF7BBF;
-    color: #D9D9D9;
+    background-color: #C1B8B0;
+    color: #2F2E2C;
     padding: 2% 4%;
     border-radius: 0.6em;
     cursor: pointer;
@@ -184,8 +184,8 @@ li {
 
 /* Footer Styles */
 footer {
-    background-color: #50409A;
-    color: #D9D9D9;
+    background-color: #6D6B69;
+    color: #2F2E2C;
     text-align: center;
     padding: 1em 0;
 }
