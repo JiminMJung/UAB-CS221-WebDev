@@ -28,14 +28,21 @@ function winnerDecision(userDecision, computerDecision) {
     }
 }
 
-const buttons = document.querySelectorAll('button');
-const divResults = document.querySelector('.result');
+function playGame() {
+    const userinput = prompt("Enter your choice: Rock, Paper, or Scissors");
+    const userFinalDecision = catchingInputError(userinput);
+    const computerFinalDecision = randomComputerDecision();
 
-buttons.forEach(button => {
-    button.addEventListener('click', () => {
-        const userChoice = catchingInputError(button.textContent);
-        const computerChoice = randomComputerDecision();
-        const result = winnerDecision(userChoice, computerChoice);
-        resultDiv.textContent = `User chose ${userChoice}. Computer chose ${computerChoice}. ${result}`;
-    });
-});
+    console.log("The User's given decision: " + userFinalDecision);
+    console.log("The Computer's given decision: " + computerFinalDecision);
+
+    const result = winnerDecision(userFinalDecision, computerFinalDecision);
+    console.log(result);
+
+    const playAgain = confirm("Do you want to play again?");
+    if (playAgain) {
+        playGame();
+    }
+}
+
+playGame();
