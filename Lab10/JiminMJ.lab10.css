@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button.rock {
+    background-color: #ff6f61;
+}
+
+button.paper {
+    background-color: #8e8dbe;
+}
+
+button.scissors {
+    background-color: #62c3a0;
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
