@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button.rock {
+    color: white;
+    background-color: red;
+}
+
+button.paper {
+    color: white;
+    background-color: blue;
+}
+
+button.scissors {
+    color: white;
+    background-color: green;
+}
+
+.result {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.results{
+    color: white
+}
